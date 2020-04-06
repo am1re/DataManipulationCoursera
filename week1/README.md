@@ -1,2 +1,2 @@
 # week1
-![screenshot](week1/progress.png)
+![screenshot](progress.png)
