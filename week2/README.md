@@ -1,10 +1,10 @@
-#week2
+# week2
 
-###Results:
+### Results:
 ![screenshot](screenshot.png)
 
-###Queries
-#####Problem 1:
+### Queries
+##### Problem 1:
 
 ```
 .open reuters.db
@@ -52,7 +52,7 @@ select count(*) from (
 ) x;
 ``` 
 
-#####Problem 2:
+##### Problem 2:
 ``` 
 .open matrix.db
 ``` 
@@ -62,7 +62,7 @@ g.
 select a.row_num, b.col_num, sum(a.value * b.value) from a, b where a.col_num = b.row_num group by a.row_num, b.col_num
 ``` 
 
-#####Problem 3:
+##### Problem 3:
 ``` 
 .open matrix.db
 ``` 
